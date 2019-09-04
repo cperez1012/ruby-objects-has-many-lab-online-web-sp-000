@@ -10,6 +10,6 @@ attr_accessor :name
     post.author = self
   end
 
-  
+
 
 end
