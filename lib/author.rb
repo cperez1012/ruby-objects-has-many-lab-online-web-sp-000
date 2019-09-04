@@ -6,4 +6,10 @@ attr_accessor :name
     @name = name
   end
 
+  def add_post(post)
+    post.author = self
+  end
+
+  
+
 end
